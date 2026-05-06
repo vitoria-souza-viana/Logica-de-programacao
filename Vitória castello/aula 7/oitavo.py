@@ -74,5 +74,34 @@
 # pontos = 50
 # print("Parabéns! Você fez " + pontos + " pontos.")
 
-pontos= 50 
-print("Parabens! Você Fez:",pontos, "pontos")
+# pontos= 50 
+# print("Parabens! Você Fez:",pontos, "pontos")
+
+# 7. A Ordem dos Fatores
+# O sistema deve dar "Excelente" para notas 9 ou 10.
+# nota = 9.5
+# if nota >= 7:
+# print("Aprovado")
+# elif nota >= 9:
+# print("Excelente!")
+#Corrigido
+# nota = float(input("Digite a sua nota"))
+# if nota >=7:
+#     print("Aprovado")
+# if nota >=9:
+#     print("Exelente!")   
+#Melhorado 
+# nota = float(input("Digite a sua nota"))
+# if nota >=7:
+#     print("Aprovado")
+# if nota >=9:
+#     print("Exelente!")   
+# elif nota <7:
+#     print("Reprovado, KKKKK")
+
+# 8. O Contador de 1 a 5
+Objetivo: Mostrar na tela os números 1, 2, 3, 4 e 5.
+for i in range(5):
+print(i)
+
+#CORRIGIDO
